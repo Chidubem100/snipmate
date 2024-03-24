@@ -17,14 +17,20 @@ npm install snipmate
 ## Usage
 ```bash
 # Add a snippet 
-snip <description> <code> [-t, --tags <tags...>]
+snip <description> <code> [-t, --tags <tags...>] <tag>
 
 # List Snippets
 snip list [<tags..>]
 
 # Search Snippets
-snip search <query>
+snip search <description>
 
 # Remove Snippet
 snip remove <tag>
+
+# Filter snippets
+snip filter <tag>
+
+# Update snippets
+snip update  <tag> <description> <code> 
 ```

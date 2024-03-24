@@ -7,6 +7,8 @@
     "snip": "./bin/index.js"
   },
   "scripts": {
+    "prepublishOnly": "node prepublish.js",
+    "release": "cross-env RELEASE_MODE=true np --no-tests",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -31,5 +33,9 @@
     "chalk": "^4.1.2",
     "commander": "^12.0.0",
     "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "np": "^10.0.2"
   }
 }
