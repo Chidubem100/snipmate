@@ -1,0 +1,16 @@
+[
+  {
+    "description": "destructure name",
+    "code": "const {name} = req.body;",
+    "tags": [
+      "js"
+    ]
+  },
+  {
+    "description": "destructuring",
+    "code": "const {userId} = req.params;",
+    "tags": [
+      "js1"
+    ]
+  }
+]
