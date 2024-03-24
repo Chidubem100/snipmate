@@ -7,8 +7,6 @@
     "snip": "./bin/index.js"
   },
   "scripts": {
-    "prepublishOnly": "node prepublish.js",
-    "release": "cross-env RELEASE_MODE=true np --no-tests",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
